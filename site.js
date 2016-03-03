@@ -15,7 +15,7 @@ $.getJSON("https://raw.githubusercontent.com/jeremywrnr/jeremywrnr.github.io/mas
         sum += val;
     }
     console.log("Sum: " + sum);
-    console.log("Avg: " + sum/items.length);
+    //console.log("Avg: " + sum/items.length);
     $(".weather").append(items.join(""));
     });
     
